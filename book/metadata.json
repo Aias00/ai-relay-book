@@ -1,0 +1,19 @@
+{
+  "title": "AI 中转站工程",
+  "subtitle": "new-api、sub2api 与 9router 源码对照：路由、流式响应与低延迟计费",
+  "author": "Aias00",
+  "lang": "zh-CN",
+  "repository": "https://github.com/Aias00/ai-relay-book",
+  "slug": "ai-relay-book",
+  "version": "1.0.0",
+  "date": "2026-10-27",
+  "description": "沿三个真实工程理解 AI 中转站，从协议转换、账户调度、SSE 到预算预留、多进程结算和故障恢复。包含有限透支下的分段预算设计与可运行 SQLite 账务实验。",
+  "cover_label": "AI RELAY ENGINEERING",
+  "cover_lines": [
+    "AI 中转站",
+    "工程"
+  ],
+  "cover_subtitle": "源码对照 · 流式协议 · 预算与恢复",
+  "include_code": true,
+  "rights": "© 2026 Aias00。原创书稿保留所有权利；第三方项目归其原作者所有。"
+}

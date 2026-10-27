@@ -1,0 +1,240 @@
+{
+  "scope": "Source reading, not execution of the three gateways",
+  "sources": [
+    {
+      "id": "N",
+      "name": "new-api",
+      "repository": "https://github.com/QuantumNous/new-api",
+      "commit": "34003e9c2eed2c20e617f583fdfe54bf1bf42237",
+      "read_date": "2026-10-27",
+      "method": "local clean source checkout; commit existence checked with GitHub API",
+      "files": [
+        {
+          "path": "controller/relay.go",
+          "sha256": "52d154e1361e06f09b58bf4038c3bbfae97c66fb8cfa3e26682a26e6e3783dc3",
+          "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/controller/relay.go"
+        },
+        {
+          "path": "relay/request_billing.go",
+          "sha256": "297efd48c8d5899178a0d8908d5f1bcf138fc5443800828fec7026f02fbb50cf",
+          "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/relay/request_billing.go"
+        },
+        {
+          "path": "relay/helper/price.go",
+          "sha256": "9fff94958ffb64b581fe1f02e3ddb6195132441a39252112c2e55c0d53d20430",
+          "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/relay/helper/price.go"
+        },
+        {
+          "path": "relay/compatible_handler.go",
+          "sha256": "b1d282aa4e2d5bd8f50ebda68360328823a2e428e8f99f155a218e3a757f9148",
+          "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/relay/compatible_handler.go"
+        },
+        {
+          "path": "service/token_counter.go",
+          "sha256": "a966a6deae75be3a7f0f911a7ffa265fa34b6814f0696ff6ab7c95f4aa3ab3d3",
+          "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/service/token_counter.go"
+        },
+        {
+          "path": "service/billing_session.go",
+          "sha256": "ec7eae264e969874c8e722002108f177cb32f8c4e9869c5371d4a40674cd483c",
+          "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/service/billing_session.go"
+        },
+        {
+          "path": "service/funding_source.go",
+          "sha256": "9532fec3d5ae626a7c2a7348e5f1911fa900b815b49e4712609c1740df4e99df",
+          "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/service/funding_source.go"
+        },
+        {
+          "path": "service/text_quota.go",
+          "sha256": "ba6a6d3f5d44867186c5cbede88cf6be1085324821a17111d369d6bdb3f84dc7",
+          "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/service/text_quota.go"
+        },
+        {
+          "path": "service/tiered_settle.go",
+          "sha256": "d971643c61f74645a774f0e680606dadd7f678ddb7d3e237a498690045ed175a",
+          "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/service/tiered_settle.go"
+        },
+        {
+          "path": "service/task_billing.go",
+          "sha256": "a2ac29108b2cfdb80fd0e343914754392907da5acab3f81bf7e3ff10850abeca",
+          "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/service/task_billing.go"
+        },
+        {
+          "path": "model/quota_reserve.go",
+          "sha256": "c32fad73379ed6191a765eaff995632f6543ae5267e57c03062da5b7fa980ade",
+          "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/model/quota_reserve.go"
+        },
+        {
+          "path": "model/user.go",
+          "sha256": "b74b07db9b379a4f4115c7e8f2e97e26430a64e4d67ef340c975e63cfee13964",
+          "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/model/user.go"
+        },
+        {
+          "path": "model/subscription.go",
+          "sha256": "fea16ad181a17229dac1d4206cf2b0c1505aaf6b9f2888356fc6b369fba8e145",
+          "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/model/subscription.go"
+        },
+        {
+          "path": "model/utils.go",
+          "sha256": "bc7f10fe3911e24c5d7d77431f77487ca62343fcf37cdf7b41f4867cebc91935",
+          "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/model/utils.go"
+        },
+        {
+          "path": "pkg/billingexpr/expr.md",
+          "sha256": "a986a9a13ae7eb89c67d51052d0bb0c7fea028d4b700b370c5fcdf76008731ce",
+          "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/pkg/billingexpr/expr.md"
+        },
+        {
+          "path": "setting/operation_setting/quota_setting.go",
+          "sha256": "330bf1fe1db20eb64b0f08bae24feff991a667692002c03c5d9f6650293321bf",
+          "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/setting/operation_setting/quota_setting.go"
+        }
+      ]
+    },
+    {
+      "id": "S",
+      "name": "sub2api",
+      "repository": "https://github.com/Wei-Shaw/sub2api",
+      "commit": "7da09cab4e875463baa79fc150adde700c5438df",
+      "read_date": "2026-10-27",
+      "method": "local clean source checkout; commit existence checked with GitHub API",
+      "files": [
+        {
+          "path": "backend/internal/handler/gateway_handler.go",
+          "sha256": "7de1be81ff0e817951a779f21db9571acd9135bc37141d6baeac6bb1b01649e4",
+          "url": "https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/handler/gateway_handler.go"
+        },
+        {
+          "path": "backend/internal/handler/failover_loop.go",
+          "sha256": "bc9733c415df26c41f618e1afe21653724253e9596ab75f037aea42b27f2c82c",
+          "url": "https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/handler/failover_loop.go"
+        },
+        {
+          "path": "backend/internal/service/concurrency_service.go",
+          "sha256": "2fc0db74eb333a3a9a021778b02228efbf1b49a1a23ea0b47dadfeeed52e906b",
+          "url": "https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/service/concurrency_service.go"
+        },
+        {
+          "path": "backend/internal/service/billing_inflight_reservation.go",
+          "sha256": "7cf2dade0a4291640ab625fef24de7b6df0552963cb4eab16c96d32354972000",
+          "url": "https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/service/billing_inflight_reservation.go"
+        },
+        {
+          "path": "backend/internal/repository/billing_inflight_cache.go",
+          "sha256": "4c74bc6d28a602284ffa6b801ab5e277aa7e55f420035128d1c350016012c19a",
+          "url": "https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/repository/billing_inflight_cache.go"
+        },
+        {
+          "path": "backend/internal/service/billing_cache_service.go",
+          "sha256": "d4d81b3a97223bbbf3a20794f43c5563a1b684141597aa9e4f06aa007a28a3f3",
+          "url": "https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/service/billing_cache_service.go"
+        },
+        {
+          "path": "backend/internal/service/gateway_usage_billing.go",
+          "sha256": "af51dd17aa10873313f6eb5391841e7869d7e6e7d6eb87b1075c107b991520ac",
+          "url": "https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/service/gateway_usage_billing.go"
+        },
+        {
+          "path": "backend/internal/service/usage_record_worker_pool.go",
+          "sha256": "c6bf93cc2f6bd7f95cdead769851f962494210d72e86a33962ba2237fc7b29a4",
+          "url": "https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/service/usage_record_worker_pool.go"
+        },
+        {
+          "path": "backend/internal/repository/usage_billing_repo.go",
+          "sha256": "00b4464e1e25774035612f267fe69b45038cc46a3bdb70311ee412e8a4ad0bef",
+          "url": "https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/repository/usage_billing_repo.go"
+        },
+        {
+          "path": "backend/internal/config/config.go",
+          "sha256": "b6414efd057c1f504667370f91a42732307337b5178788e37e13c991c45f47b3",
+          "url": "https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/config/config.go"
+        }
+      ]
+    },
+    {
+      "id": "R",
+      "name": "9router",
+      "repository": "https://github.com/decolua/9router",
+      "commit": "87a74e1bda3677193c6f71a7e2100c90311f0689",
+      "read_date": "2026-10-27",
+      "method": "local clean source checkout; commit existence checked with GitHub API",
+      "files": [
+        {
+          "path": "src/app/api/v1/chat/completions/route.js",
+          "sha256": "1ad8cb10de0da68e7c1146385dd6c7a1a5611957e4f9e9b011f687dfeb3c6ebf",
+          "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/src/app/api/v1/chat/completions/route.js"
+        },
+        {
+          "path": "src/sse/handlers/chat.js",
+          "sha256": "da1fdcf29a9d62cab27b254a26331fb7bd9a112b3001273977f5a23def5156b7",
+          "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/src/sse/handlers/chat.js"
+        },
+        {
+          "path": "src/sse/services/auth.js",
+          "sha256": "47eee63b37852b5f1a1cc0dc8568c20c5f11a4751abcdcf7a965b4fe77cba5ef",
+          "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/src/sse/services/auth.js"
+        },
+        {
+          "path": "open-sse/handlers/chatCore.js",
+          "sha256": "b84ef364451a354d6ee7c1a295f6d98c912a8f512a631ec7242b238b30c0ab8a",
+          "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/open-sse/handlers/chatCore.js"
+        },
+        {
+          "path": "open-sse/handlers/chatCore/streamingHandler.js",
+          "sha256": "d912385645e5a328c67d5e0e0e2e36c2d05542214a5adf9330c624e897705812",
+          "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/open-sse/handlers/chatCore/streamingHandler.js"
+        },
+        {
+          "path": "open-sse/utils/streamHandler.js",
+          "sha256": "5021b527d793742d6ba34d94bf12c25b6d54ec2ea6e2fb4601bf85f346d2062a",
+          "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/open-sse/utils/streamHandler.js"
+        },
+        {
+          "path": "open-sse/translator/index.js",
+          "sha256": "9f2fa5db1f2d4e02e8ac2b41d1f7d6ba6a626b3dfac97796c1dc143f56ee03e2",
+          "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/open-sse/translator/index.js"
+        },
+        {
+          "path": "open-sse/services/combo.js",
+          "sha256": "cd77a0d5ea3cf28bbc463b98ee43325b77deb21bda36df0b0bc08a36005ea2ac",
+          "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/open-sse/services/combo.js"
+        },
+        {
+          "path": "open-sse/services/accountFallback.js",
+          "sha256": "5ab71b6ef14cdddafa0e07f9f70167569a05241b4006f1ccd2d45a32367e5125",
+          "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/open-sse/services/accountFallback.js"
+        },
+        {
+          "path": "open-sse/services/usage.js",
+          "sha256": "090ef37f05309c0101f565f637b7b59c88c578dae35f58fcb375bb0e40d05559",
+          "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/open-sse/services/usage.js"
+        },
+        {
+          "path": "open-sse/providers/pricing.js",
+          "sha256": "e68cbd17b1e163fcd148eeacf183bfb611380b3fed03cb593970da3b8656a2c9",
+          "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/open-sse/providers/pricing.js"
+        },
+        {
+          "path": "src/lib/db/repos/usageRepo.js",
+          "sha256": "ad4bf3642337c483211ac7507694f2c36adf0dad7e3256e9447c3cd5748bdbc1",
+          "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/src/lib/db/repos/usageRepo.js"
+        },
+        {
+          "path": "src/lib/db/repos/apiKeysRepo.js",
+          "sha256": "a4474779d4d452a5ba967478b5e0d0746489d354f0d13a8893e3acd3818b32b5",
+          "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/src/lib/db/repos/apiKeysRepo.js"
+        },
+        {
+          "path": "src/lib/db/schema.js",
+          "sha256": "62308aad30f7ced05503dba48c69c9ce61b589e8cd2c317643ef898544c061b5",
+          "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/src/lib/db/schema.js"
+        },
+        {
+          "path": "src/lib/db/driver.js",
+          "sha256": "5136903b4f2d821abc132436fa2f01c4c9adcbcddc6b733e955b6e31e1e0b157",
+          "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/src/lib/db/driver.js"
+        }
+      ]
+    }
+  ]
+}

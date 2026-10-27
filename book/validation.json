@@ -1,0 +1,21 @@
+{
+  "scope": "独立教学实验，不是三个上游项目的集成测试",
+  "python": "3.15.0",
+  "sqlite": "3.54.1",
+  "command": "python3 -m unittest discover -s tests -v",
+  "result": "6 tests passed",
+  "cases": [
+    "two processes same account",
+    "duplicate command concurrent settlement",
+    "conflicting amount rejection",
+    "process exit before SQL commit",
+    "process exit after SQL commit and replay",
+    "negative cost rejection and actual overdraft"
+  ],
+  "not_verified": [
+    "Redis/Lua/Cluster integration",
+    "SSE/provider cancellation",
+    "production latency",
+    "three gateway full test suites"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "command": "python3 -m lab.ledger demo --db <new temporary path>",
+  "result": {
+    "balance_micro_usd": 8500000,
+    "command_count": 1,
+    "settlement_count": 1,
+    "pending_commands": [],
+    "pending_events": [
+      {
+        "event_id": 1,
+        "user_id": 1,
+        "request_id": "demo-A",
+        "delta": -1500000,
+        "delivered": 0
+      }
+    ]
+  },
+  "scope": "SQLite settlement only; outbox delivery not implemented"
+}
