@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-10",
+  "scope": "追加凭证存储与使用路径；不改变原始 41 文件来源基线",
+  "files": [
+    {
+      "project": "new-api",
+      "commit": "34003e9c2eed2c20e617f583fdfe54bf1bf42237",
+      "path": "model/token.go",
+      "sha256": "2883125c0adfb123c89a56cee77f6172dacdb736b51c94b662d5061a2fe3c205",
+      "matches_commit": true,
+      "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/model/token.go"
+    },
+    {
+      "project": "new-api",
+      "commit": "34003e9c2eed2c20e617f583fdfe54bf1bf42237",
+      "path": "model/token_cache.go",
+      "sha256": "5fa2809ee055d09fdf4d80489efbec33a3121e4088524eb4f2301da684c29c65",
+      "matches_commit": true,
+      "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/model/token_cache.go"
+    },
+    {
+      "project": "new-api",
+      "commit": "34003e9c2eed2c20e617f583fdfe54bf1bf42237",
+      "path": "model/channel.go",
+      "sha256": "9ba56062abe914433dc05c2883723a141cfecf79039d25177e05e6641ffcdeb6",
+      "matches_commit": true,
+      "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/model/channel.go"
+    },
+    {
+      "project": "new-api",
+      "commit": "34003e9c2eed2c20e617f583fdfe54bf1bf42237",
+      "path": "middleware/distributor.go",
+      "sha256": "bae81fe07cba2116ae703f38e8946d085c91f704e391328c94c3f7c412b8c53d",
+      "matches_commit": true,
+      "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/middleware/distributor.go"
+    },
+    {
+      "project": "new-api",
+      "commit": "34003e9c2eed2c20e617f583fdfe54bf1bf42237",
+      "path": "relay/channel/openai/adaptor.go",
+      "sha256": "79ae4ac316c2684e757805cce42e1104f8db63891dcde3cc8710fa3369d017c7",
+      "matches_commit": true,
+      "url": "https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/relay/channel/openai/adaptor.go"
+    },
+    {
+      "project": "sub2api",
+      "commit": "7da09cab4e875463baa79fc150adde700c5438df",
+      "path": "backend/internal/repository/api_key_repo.go",
+      "sha256": "e1432315ab2f01ceb50a21d16ad4209bd28561b7c8db8503255ed4aaaa656e18",
+      "matches_commit": true,
+      "url": "https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/repository/api_key_repo.go"
+    },
+    {
+      "project": "sub2api",
+      "commit": "7da09cab4e875463baa79fc150adde700c5438df",
+      "path": "backend/internal/service/api_key_auth_cache_impl.go",
+      "sha256": "609de980534669d396f445fc4eeb269e1fadd20bbf77d3e3f936259f30186319",
+      "matches_commit": true,
+      "url": "https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/service/api_key_auth_cache_impl.go"
+    },
+    {
+      "project": "sub2api",
+      "commit": "7da09cab4e875463baa79fc150adde700c5438df",
+      "path": "backend/internal/repository/account_repo.go",
+      "sha256": "8548ce0689ce564e828e4e508e914892b302e649d5656e54b109e973c8730e2c",
+      "matches_commit": true,
+      "url": "https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/repository/account_repo.go"
+    },
+    {
+      "project": "sub2api",
+      "commit": "7da09cab4e875463baa79fc150adde700c5438df",
+      "path": "backend/ent/schema/account.go",
+      "sha256": "dfc1cd50c5d0736234fe5c5553f49a12e8153801a7a06a9ccd6ffa4dc7917ff2",
+      "matches_commit": true,
+      "url": "https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/ent/schema/account.go"
+    },
+    {
+      "project": "sub2api",
+      "commit": "7da09cab4e875463baa79fc150adde700c5438df",
+      "path": "backend/internal/service/claude_token_provider.go",
+      "sha256": "d21f14ad6645b728dea2b8a1b48d00ed85899dd357cb4810763ecfc8e171ed53",
+      "matches_commit": true,
+      "url": "https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/service/claude_token_provider.go"
+    },
+    {
+      "project": "9router",
+      "commit": "87a74e1bda3677193c6f71a7e2100c90311f0689",
+      "path": "src/lib/db/repos/apiKeysRepo.js",
+      "sha256": "a4474779d4d452a5ba967478b5e0d0746489d354f0d13a8893e3acd3818b32b5",
+      "matches_commit": true,
+      "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/src/lib/db/repos/apiKeysRepo.js"
+    },
+    {
+      "project": "9router",
+      "commit": "87a74e1bda3677193c6f71a7e2100c90311f0689",
+      "path": "src/lib/db/repos/connectionsRepo.js",
+      "sha256": "9d53b5eecdd2865ad99bc4227f3887e2c269610074ecd6aa3c0e9ed38528d493",
+      "matches_commit": true,
+      "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/src/lib/db/repos/connectionsRepo.js"
+    },
+    {
+      "project": "9router",
+      "commit": "87a74e1bda3677193c6f71a7e2100c90311f0689",
+      "path": "open-sse/executors/base.js",
+      "sha256": "ff76f5fc9be0103b847b864ce831859ec17e5da73fdbef30d4404c3bae3db717",
+      "matches_commit": true,
+      "url": "https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/open-sse/executors/base.js"
+    }
+  ]
+}

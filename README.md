@@ -1,10 +1,10 @@
 # AI 中转站工程
 
-**new-api、sub2api 与 9router 源码对照：路由、流式响应与低延迟计费。** 作者 Aias00。
+**new-api、sub2api 与 9router 源码对照：业务架构、流式网关与可靠计费。** 作者 Aias00。
 
 [在线阅读](https://aias00.github.io/ai-relay-book/) · [下载 EPUB](https://aias00.github.io/ai-relay-book/downloads/ai-relay-book.epub) · [完整书稿](https://aias00.github.io/ai-relay-book/downloads/book.md) · [离线 HTML](https://aias00.github.io/ai-relay-book/downloads/ai-relay-book.html)
 
-一本面向后端开发者的独立中文工程书。围绕真实中转站请求，解释协议转换、账户与模型路由、SSE 生命周期、预扣和预留、多进程结算、有限透支下的分段预算以及故障恢复。包括 16 章正文、前言、练习参考、固定源码来源、术语表，以及自动生成的实验代码附录。
+一本面向后端开发者的独立中文工程书。围绕真实中转站请求，解释协议转换、账户与模型路由、SSE 生命周期、预扣和预留、多进程结算、有限透支下的分段预算以及故障恢复。新增控制面与数据面、凭证安全、配置同步、负载均衡和 30 道面试问答；分段预算属于可选设计。包括 22 章正文、前言、练习参考、固定源码来源、术语表，以及自动生成的实验代码附录。
 
 ## 目录
 
@@ -24,10 +24,16 @@
 14. 运行一个可崩溃的结算实验
 15. 用指标和故障窗口控制上线
 16. 选择基础工程与实施顺序
+17. 完整业务域与模块边界
+18. 独立计价引擎与请求价格快照
+19. 控制面与数据面及凭证安全
+20. 多节点配置同步与渠道停用
+21. 四层七层负载与多节点长连接
+22. AI 网关面试题与参考答案
 
 ## 来源与结论范围
 
-本书固定读取以下版本，读取日期为 2026-10-27。来源清单包含 41 个文件的固定提交链接与 SHA-256，见 [book/sources.json](book/sources.json) 和[来源附录](book/chapters/91-sources.md)。
+本书固定读取以下版本，读取日期为 2026-10-27。原始来源清单包含 41 个文件的固定提交链接与 SHA-256，见 [book/sources.json](book/sources.json) 和[来源附录](book/chapters/91-sources.md)。
 
 | 工程 | 提交 |
 | --- | --- |
@@ -36,6 +42,8 @@
 | [decolua/9router](https://github.com/decolua/9router) | `87a74e1bda3677193c6f71a7e2100c90311f0689` |
 
 源码观察、建议设计和本书实验分开陈述：没有运行三个工程的完整测试套件、真实模型请求或性能压测。不会把成本统计当作钱包、把 Redis 原子操作当作跨存储事务、把 TTL 到期当作供应商未收费的证明。所有金额示例与预算阈值都是教学假设。
+
+补充架构章节于 2026-11-10 核对了 13 个凭证相关文件，它们仍匹配上述提交；清单见 [research/architecture-sources-2026-11-10.json](research/architecture-sources-2026-11-10.json)。
 
 ## 运行实验
 

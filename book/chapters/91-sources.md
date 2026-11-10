@@ -69,3 +69,21 @@
 第 11—13 章是针对有限透支、低延迟与恢复要求提出的设计，不是以上源码的功能宣称。第 14 章的 Python/SQLite 实验代码由本书提供，运行命令和结果范围见实验章与仓库 validation.json。它没有 Redis 消费者、SSE 网络服务、真实价格和供应商取消测试。
 
 随书构建器和阅读样式复用作者自己的 ai-gateway-book；新书书稿、实验和来源清单独立维护。三个第三方项目的名称、署名和代码权利保留给各自作者；本书提供链接与分析，不打包它们的源码或凭据。
+
+## 架构与凭证补充核对
+
+2026-11-10 的补充观察用于第 19 章，限定为应用代码中的平台 Key 校验、缓存索引、上游凭证存储与请求注入，不评价部署侧加密，也不是完整安全审计。原有章节仍使用上述固定基线。逐文件散列见仓库 `research/architecture-sources-2026-11-10.json`。
+
+- new-api：[model/token.go](https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/model/token.go)
+- new-api：[model/token_cache.go](https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/model/token_cache.go)
+- new-api：[model/channel.go](https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/model/channel.go)
+- new-api：[middleware/distributor.go](https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/middleware/distributor.go)
+- new-api：[relay/channel/openai/adaptor.go](https://github.com/QuantumNous/new-api/blob/34003e9c2eed2c20e617f583fdfe54bf1bf42237/relay/channel/openai/adaptor.go)
+- sub2api：[backend/internal/repository/api_key_repo.go](https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/repository/api_key_repo.go)
+- sub2api：[backend/internal/service/api_key_auth_cache_impl.go](https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/service/api_key_auth_cache_impl.go)
+- sub2api：[backend/internal/repository/account_repo.go](https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/repository/account_repo.go)
+- sub2api：[backend/ent/schema/account.go](https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/ent/schema/account.go)
+- sub2api：[backend/internal/service/claude_token_provider.go](https://github.com/Wei-Shaw/sub2api/blob/7da09cab4e875463baa79fc150adde700c5438df/backend/internal/service/claude_token_provider.go)
+- 9router：[src/lib/db/repos/apiKeysRepo.js](https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/src/lib/db/repos/apiKeysRepo.js)
+- 9router：[src/lib/db/repos/connectionsRepo.js](https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/src/lib/db/repos/connectionsRepo.js)
+- 9router：[open-sse/executors/base.js](https://github.com/decolua/9router/blob/87a74e1bda3677193c6f71a7e2100c90311f0689/open-sse/executors/base.js)
