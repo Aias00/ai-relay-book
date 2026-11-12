@@ -19,11 +19,11 @@
     "three gateway full test suites"
   ],
   "publishing_checks": {
-    "build": "PASS: 22 body chapters, preface and 4 appendices",
-    "integrity": "PASS: all 27 chapters match Markdown, EPUB and static HTML; local links and search valid",
-    "browser": "PASS: search, theme, font, pagination, no-JS, storage denied, downloads, all 27 chapters at 320/390px without horizontal page overflow",
-    "epubcheck": "Executed by GitHub Actions before deployment; see run linked from repository Actions"
+    "build": "PASS: 25 body chapters, preface and 4 appendices",
+    "integrity": "PASS: all 30 chapters match Markdown, EPUB and static HTML; local links and search valid",
+    "browser": "PASS: search, theme, font, pagination, no-JS, storage denied, downloads, all 30 chapters at 320/390px without horizontal page overflow",
+    "epubcheck": "PASS: EPUBCheck 5.4.0, zero errors and warnings; Java 21"
   },
-  "edition": "1.1.0",
-  "architecture_update": "Six new chapters and 30 interview questions; design guidance is not an upstream runtime guarantee"
+  "edition": "1.2.0",
+  "architecture_update": "Three new design chapters: deployment and reporting, cache affinity, semantic routing; no new upstream implementation claims"
 }

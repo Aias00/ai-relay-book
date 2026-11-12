@@ -5,9 +5,9 @@
   "lang": "zh-CN",
   "repository": "https://github.com/Aias00/ai-relay-book",
   "slug": "ai-relay-book",
-  "version": "1.1.0",
-  "date": "2026-11-10",
-  "description": "从三个工程理解完整 AI 网关：业务域、协议与调度、控制面与数据面、凭证安全、配置同步、长连接、版本化计价和可靠结算。包含 30 道面试问答与 SQLite 实验；分段预算作为可选设计。",
+  "version": "1.2.0",
+  "date": "2026-11-12",
+  "description": "从三个工程理解完整 AI 网关：业务域、协议与调度、控制面与数据面、凭证安全、配置同步、长连接、版本化计价和可靠结算。包含 30 道面试问答与 SQLite 实验；分段预算作为可选设计。 新增多节点部署与信息上报、上下文缓存及完整语义路由流程。",
   "cover_label": "AI RELAY ENGINEERING",
   "cover_lines": [
     "AI 中转站",
